@@ -18,4 +18,18 @@ Similarity Matching: When a question is asked, the app compares it with the text
 
 Response Generation: The chosen text segments are then used by the language model to generate a response based on the relevant information from the PDFs.
 
+Usage
+To use the MultiPDF Chat App, follow these steps:
+
+Ensure that you have installed the required dependencies and added the OpenAI API key to the .env file.
+
+Run the main.py file using the Streamlit CLI. Execute the following command:
+
+    streamlit run app.py
+The application will launch in your default web browser, displaying the user interface.
+
+Load multiple PDF documents into the app by following the provided instructions.
+
+Ask questions in natural language about the loaded PDFs using the chat interface.
+
 ![image](https://github.com/user-attachments/assets/2914aa9e-0d9b-432b-981b-79f9d34af9f6)
