@@ -1,20 +1,21 @@
 # Multi-PDF-chat-with-Gemini
-Introduction
-The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+Introduction:
+The MultiPDF Chat App is a Python application that lets you interact with several PDF documents simultaneously. You can pose questions about the content of the PDFs in natural language, and the app will generate appropriate responses based on the information within the documents. It uses a language model to provide accurate answers to your questions. Keep in mind that the app will only respond to queries related to the PDFs that have been loaded.
 
 How It Works
 
 ![image](https://github.com/user-attachments/assets/3a815b77-6e31-4b8f-b0d5-fe3e3379165c)
-The application follows these steps to provide responses to your questions:
 
-PDF Loading: The app reads multiple PDF documents and extracts their text content.
+The application uses the following process to answer your questions:
 
-Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+PDF Loading: The app processes multiple PDF documents and extracts the text from them.
 
-Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+Text Chunking: The extracted text is broken down into smaller, manageable segments.
 
-Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+Language Model: The app utilizes a language model to create vector representations (embeddings) of these text segments.
 
-Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+Similarity Matching: When a question is asked, the app compares it with the text segments to find the ones most relevant in terms of meaning.
+
+Response Generation: The chosen text segments are then used by the language model to generate a response based on the relevant information from the PDFs.
 
 ![image](https://github.com/user-attachments/assets/2914aa9e-0d9b-432b-981b-79f9d34af9f6)
