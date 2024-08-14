@@ -18,7 +18,7 @@ Similarity Matching: When a question is asked, the app compares it with the text
 
 Response Generation: The chosen text segments are then used by the language model to generate a response based on the relevant information from the PDFs.
 
-Usage
+Usage:
 To use the MultiPDF Chat App, follow these steps:
 
 Ensure that you have installed the required dependencies and added the OpenAI API key to the .env file.
